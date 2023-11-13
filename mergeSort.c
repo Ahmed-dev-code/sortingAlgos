@@ -146,7 +146,7 @@ int main(int argc, char *argv[]) {
     printf("Ordered Table (Sorted): ");
     printf("\n");
     printf("Time of execution (Ordered): %f seconds\n", elapsed_time_ordered);
-    // free(ordered);
+    free(ordered);
 
     // Sort and measure time for the randomly shuffled table
     start_time = clock();
@@ -156,7 +156,7 @@ int main(int argc, char *argv[]) {
     printf("Randomly Shuffled Table (Sorted): ");
     printf("\n");
     printf("Time of execution (Random): %f seconds\n", elapsed_time_random);
-    // free(random);
+    free(random);
 
     // Sort and measure time for the inverted table
     start_time = clock();
@@ -166,9 +166,9 @@ int main(int argc, char *argv[]) {
     printf("Inverted Table (Sorted): ");
     printf("\n");
     printf("Time of execution (Inverted): %f seconds\n", elapsed_time_inverted);
-    // free(inverted);
+    free(inverted);
 
-    // Print the sorted tables
+    // // Print the sorted tables
     // printf("Ordered Table (sorted): ");
     // printTable(ordered, n);
     // printf("Randomly Shuffled Table (sorted): ");
