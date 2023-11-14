@@ -6,7 +6,7 @@
 
 
 
-Void triABulles (int *T, int n) {
+void triABulles (int *T, int n) {
     int i,permute=1, temp;
 
     while (permute)
