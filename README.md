@@ -4,11 +4,11 @@ This repository contains implementations of various sorting algorithms in the C 
 
 ## List of Sorting Algorithms
 
-1. [Bubble Sort](bubbleSort.c)
-2. [Insertion Sort](insertionTri.c)
-3. [Selection Sort](selectionSort.c)
-4. [Merge Sort](mergeSort.c)
-5. [Quick Sort](quickSort.c)
+1. [Insertion Sort](insertionTri.c)
+2. [Bubble Sort](bubbleSort.c)
+3. [Merge Sort](mergeSort.c)
+4. [Quick Sort](quickSort.c)
+5. [Heap Sort](heapSort.c)
 
 ## How to Use
 
